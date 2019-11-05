@@ -18,6 +18,7 @@ function lengthOfLongestSubstring(word) {
 
     map[endChar] = i;
     max = Math.max(max, i - start + 1);
+    //test
   }
   return max;
 }
