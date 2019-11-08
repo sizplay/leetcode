@@ -6,6 +6,8 @@
 // function isPalindrome(-121) --> false
 // function isPalindrome(10) --> false
 
-function isPalindrome(x) {}
+function isPalindrome(x) {
+  for (let i = 0; i < x.toString().length; i++) {}
+}
 
 module.exports = isPalindrome;
